@@ -1,0 +1,26 @@
+{
+    "name": "DFR0-Maqueen",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "maqueen": "github:jhlucky/maqueen#c7b3140c3b07fc9a779a2711c95d13a31e4278db",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.6.2",
+        "gamePad": "github:dfrobot/pxt-gamepad#v1.1.0",
+        "microphone": "*",
+        "Freenove": "github:freenove/makecode-extension-starter-kit#v1.0.2",
+        "gamerbit": "github:sparkfun/pxt-gamer-bit#v0.0.8"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
